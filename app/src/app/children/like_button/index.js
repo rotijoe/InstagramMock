@@ -6,7 +6,7 @@ const LikeButton = (props) => {
   const { sizePx } = props;
   const [liked, setLiked] = useState(false);
   return (
-    <div onClick={() => setLiked(!liked)}>
+    <div onClick={() => setLiked(!liked)} style={{ cursor: 'pointer' }}>
       {liked ? <LikedIcon sizePx={sizePx} /> : <UnlikedIcon sizePx={sizePx} />}
     </div>
   );

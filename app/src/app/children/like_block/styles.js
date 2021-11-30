@@ -1,11 +1,12 @@
 export default {
-  display: 'flex',
-  justifyContent: 'space-between',
-  alignItems: 'center',
-  height: '80px',
-  paddingRight: '25px',
-  userSelect: 'none',
-
+  likeBlock: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    height: '80px',
+    paddingRight: '25px',
+    userSelect: 'none',
+  },
   likes: {
     margin: '5px 0',
   },

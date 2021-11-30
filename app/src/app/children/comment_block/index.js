@@ -6,9 +6,9 @@ const CommentBlock = (props) => {
   const { commentsData } = props;
   const comments = commentsData.edges.map((comment) => comment.node);
   return (
-    <div style={styles}>
+    <div style={styles.commentBlock}>
       {comments.map((comment) => (
-        <Comment comment={comment} />
+        <Comment comment={comment} key={comment.username} />
       ))}
     </div>
   );

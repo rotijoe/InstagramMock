@@ -13,7 +13,11 @@ const App = (props) => {
         <Image data={data} />
       </div>
       <div style={styles.text}>
-        <UserBlock owner={data.owner} location={data.location} />
+        <UserBlock
+          owner={data.owner}
+          location={data.location}
+          caption={data.edge_media_to_caption.edges[0].node}
+        />
         <CommentBlock commentsData={data.edge_media_to_comment} />
         <LikeBlock
           likeCount={data.edge_media_preview_like.count}

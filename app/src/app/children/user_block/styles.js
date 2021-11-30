@@ -1,9 +1,12 @@
 export default {
-  display: 'flex',
-  alignItems: 'center',
-  height: '80px',
-  userSelect: 'none',
+  userBlock: { paddingRight: '20px', height: '140px' },
 
+  header: {
+    display: 'flex',
+    alignItems: 'center',
+    userSelect: 'none',
+    padding: '15px 0',
+  },
   logo: {
     width: '50px',
     height: '50px',
@@ -17,5 +20,8 @@ export default {
   },
   location: {
     margin: '5px 0 0 0',
+  },
+  caption: {
+    borderTop: '1px solid lightgray',
   },
 };

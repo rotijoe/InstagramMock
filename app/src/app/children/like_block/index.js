@@ -17,7 +17,7 @@ const LikeBlock = (props) => {
   }
 
   return (
-    <div style={styles}>
+    <div style={styles.likeBlock}>
       <div>
         <h4 style={styles.likes}>{likeCount.toLocaleString()} likes</h4>
         <p style={styles.date}>{date}</p>

@@ -1,8 +1,9 @@
 export default {
-  overflowY: 'scroll',
-  height: 'calc(100% - 160px)',
-  paddingRight: '20px',
-
+  commentBlock: {
+    overflowY: 'scroll',
+    height: 'calc(100% - 220px)',
+    paddingRight: '20px',
+  },
   comment: {
     display: 'flex',
     justifyContent: 'space-between',
